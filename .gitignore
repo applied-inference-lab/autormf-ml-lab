@@ -1,0 +1,35 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Large Database files (>100MB)
+*.db*
+*.sqlite
+*.sqlite3
+
+# Model Weights and Large Binaries (>100MB)
+*.gguf
+*.safetensors
+*.bin
+*.onnx
+models/bge-base-en-v1.5-fine-tuned/model.safetensors
+models/gte-qwen2-7b-adjudicated-lora/
+models/gte-qwen2-7b-merged/
+checkpoints/
+
+# Logs and outputs
+*.log
+cmmc_proposals_seed.json
+
+# IDE
+.vscode/
+.idea/
+*.swp

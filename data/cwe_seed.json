@@ -1,0 +1,187 @@
+[
+  {
+    "CweId": "CWE-79",
+    "ControlId": "SI-10",
+    "Justification": "Cross-Site Scripting (XSS) requires input validation and output encoding safeguards."
+  },
+  {
+    "CweId": "CWE-89",
+    "ControlId": "SI-10",
+    "Justification": "SQL Injection requires structured query parameterization and information input validation."
+  },
+  {
+    "CweId": "CWE-119",
+    "ControlId": "SI-16",
+    "Justification": "Improper restriction of operations within memory bounds maps to Memory Information Protection."
+  },
+  {
+    "CweId": "CWE-20",
+    "ControlId": "SI-10",
+    "Justification": "Improper input validation requires active information input validation controls."
+  },
+  {
+    "CweId": "CWE-78",
+    "ControlId": "SI-10",
+    "Justification": "OS Command Injection requires strict input validation and command boundary checks."
+  },
+  {
+    "CweId": "CWE-120",
+    "ControlId": "SI-16",
+    "Justification": "Buffer copy without checking size of input maps directly to memory protection controls."
+  },
+  {
+    "CweId": "CWE-125",
+    "ControlId": "SI-16",
+    "Justification": "Out-of-bounds read vulnerabilities map to memory protection and boundary restriction."
+  },
+  {
+    "CweId": "CWE-190",
+    "ControlId": "SI-16",
+    "Justification": "Integer overflow leading to memory corruption requires memory information protection."
+  },
+  {
+    "CweId": "CWE-200",
+    "ControlId": "SC-8",
+    "Justification": "Exposure of sensitive information to an unauthorized actor requires transmission confidentiality."
+  },
+  {
+    "CweId": "CWE-269",
+    "ControlId": "AC-6",
+    "Justification": "Improper privilege management maps to least privilege enforcement policies."
+  },
+  {
+    "CweId": "CWE-285",
+    "ControlId": "AC-3",
+    "Justification": "Improper authorization checks require strict access enforcement controls."
+  },
+  {
+    "CweId": "CWE-287",
+    "ControlId": "IA-2",
+    "Justification": "Improper authentication maps directly to Identification and Authentication controls."
+  },
+  {
+    "CweId": "CWE-22",
+    "ControlId": "AC-17",
+    "Justification": "Path Traversal breaches remote access restrictions and requires system entry controls."
+  },
+  {
+    "CweId": "CWE-311",
+    "ControlId": "SC-8",
+    "Justification": "Missing encryption of sensitive data requires transmission confidentiality and integrity."
+  },
+  {
+    "CweId": "CWE-319",
+    "ControlId": "SC-8",
+    "Justification": "Cleartext transmission of sensitive data requires transmission encryption controls."
+  },
+  {
+    "CweId": "CWE-327",
+    "ControlId": "SC-13",
+    "Justification": "Use of broken cryptographic algorithm requires cryptographic protection guidelines."
+  },
+  {
+    "CweId": "CWE-330",
+    "ControlId": "SC-13",
+    "Justification": "Use of insufficiently random values requires strong cryptographic key generation controls."
+  },
+  {
+    "CweId": "CWE-352",
+    "ControlId": "SI-10",
+    "Justification": "Cross-Site Request Forgery (CSRF) requires transaction verification and session boundary protection."
+  },
+  {
+    "CweId": "CWE-400",
+    "ControlId": "SC-5",
+    "Justification": "Uncontrolled resource consumption maps directly to Denial of Service protection."
+  },
+  {
+    "CweId": "CWE-416",
+    "ControlId": "SI-16",
+    "Justification": "Use-after-free memory reuse requires memory protection controls."
+  },
+  {
+    "CweId": "CWE-434",
+    "ControlId": "SI-10",
+    "Justification": "Unrestricted upload of dangerous files requires strict input validation and scanning."
+  },
+  {
+    "CweId": "CWE-502",
+    "ControlId": "SI-10",
+    "Justification": "Deserialization of untrusted data requires validation before execution."
+  },
+  {
+    "CweId": "CWE-611",
+    "ControlId": "SI-10",
+    "Justification": "Improper restriction of XML External Entity Reference (XXE) requires XML parser input validation."
+  },
+  {
+    "CweId": "CWE-732",
+    "ControlId": "AC-3",
+    "Justification": "Incorrect permission assignment for critical resources requires access enforcement rules."
+  },
+  {
+    "CweId": "CWE-798",
+    "ControlId": "IA-2",
+    "Justification": "Use of hard-coded credentials bypasses identification and authentication checks."
+  },
+  {
+    "CweId": "CWE-862",
+    "ControlId": "AC-3",
+    "Justification": "Missing authorization check maps to access control policy enforcement."
+  },
+  {
+    "CweId": "CWE-863",
+    "ControlId": "AC-3",
+    "Justification": "Incorrect authorization check maps to access control policy enforcement."
+  },
+  {
+    "CweId": "CWE-94",
+    "ControlId": "SI-2",
+    "Justification": "Improper control of generation of code maps to active software flaw remediation."
+  },
+  {
+    "CweId": "CWE-918",
+    "ControlId": "SC-7",
+    "Justification": "Server-Side Request Forgery (SSRF) requires boundary protection and egress routing controls."
+  },
+  {
+    "CweId": "CWE-943",
+    "ControlId": "SI-10",
+    "Justification": "Incorrect parameter type formatting maps to input validation and parameter sanitization."
+  },
+  {
+    "CweId": "CWE-506",
+    "ControlId": "SI-3",
+    "Justification": "Embedded malicious code requires active malicious code protection and scanning at system entry and exit points."
+  },
+  {
+    "CweId": "CWE-507",
+    "ControlId": "SI-3",
+    "Justification": "Trojan horse execution requires malicious code protection mechanism deployment."
+  },
+  {
+    "CweId": "CWE-508",
+    "ControlId": "SI-3",
+    "Justification": "Non-replicating malicious code execution requires malicious code protection filters."
+  },
+  {
+    "CweId": "CWE-509",
+    "ControlId": "SI-3",
+    "Justification": "Replicating malicious code (viruses, worms) requires automated malicious code protection scanning."
+  },
+  {
+    "CweId": "CWE-699",
+    "ControlId": "SA-11",
+    "Justification": "Developer Security Testing and Evaluation covers software development and design weaknesses."
+  },
+  {
+    "CweId": "CWE-703",
+    "ControlId": "SA-11",
+    "Justification": "Improper handling of exceptional conditions requires active developer security testing."
+  },
+  {
+    "CweId": "CWE-1100",
+    "ControlId": "SA-11",
+    "Justification": "Developer security testing evaluates OWASP Top 10 vulnerabilities."
+  }
+]
