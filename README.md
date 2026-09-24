@@ -4,6 +4,8 @@ An open-source machine learning framework for mapping technical software vulnera
 
 Developed by James Pusateri (Middle Coast Software Inc.) and published under the Applied Inference Lab initiative.
 
+[Download Technical White Paper (PDF)](https://github.com/applied-inference-lab/autormf-ml-lab/releases/download/v1.0.0/autormf_white_paper_202609.pdf)
+
 ## Overview
 
 Correlating technical vulnerability scans with regulatory compliance frameworks is a persistent operational bottleneck in cybersecurity compliance programs. Technical vulnerability descriptions (such as memory corruption, buffer overflows, or authentication bypasses) inhabit a different vocabulary space than administrative compliance controls (such as flaw remediation, boundary protection, or audit logging).
@@ -174,3 +176,4 @@ For comprehensive conversion details, consult `docs/12_model_conversion_guide.md
 This project is licensed under the Apache License, Version 2.0. See the `LICENSE` file for details.
 
 Copyright 2026 Middle Coast Software Inc.
+
